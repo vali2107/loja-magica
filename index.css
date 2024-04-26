@@ -1,0 +1,25 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    height:10vh;
+    padding: 20px;
+    background-color: cadetblue;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    width: 30vw;
+}
+
+.navBar a {
+    color: white;
+    text-decoration: none;
+}
