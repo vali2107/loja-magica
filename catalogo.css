@@ -1,0 +1,41 @@
+/* todos os itens em grade */
+main {
+    display:grid;
+    grid-template-columns: 22.5vw 22.5vw 22.5vw 22.5vw;
+    grid-template-rows: 50% 50%;
+    gap:2vw;
+    margin:2vw;
+}
+
+/* itens em si e seus elementos */
+.item {
+    display:grid;
+    grid-template-columns: 90% 10%;
+    grid-template-areas: "imagem imagem" 
+                        "nome nome" 
+                        "descricao descricao"
+                        "preco carrinho" ;
+}
+
+.item img {
+    grid-area: imagem;
+    width:90%;
+    height:auto;
+}
+.nome {
+    grid-area: nome;
+    font-size:20px;
+    font-weight: bold;
+}
+.descricao {
+    grid-area: descricao;
+}
+.preco {
+    grid-area: preco;
+    font-size: 18px;
+    font-weight:bold;
+}
+.carrinho {
+    grid-area: carrinho;
+    font-size: 18px
+}
