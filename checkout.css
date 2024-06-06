@@ -1,0 +1,23 @@
+main {
+    display: flex;
+    gap:2vw;
+    margin:7vw;
+}
+.pessoal, .endereco, .pagamento, .concluir {
+    width:20vw;
+    background-color: rgb(124, 207, 210);
+    padding:20px;
+}
+main div form {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin-top: 20px;
+}
+
+.concluir div {
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+    margin-bottom:10px;
+}

@@ -13,10 +13,15 @@ header {
     background-color: cadetblue;
 }
 
+header a img {
+    width: 8vh;
+    height:8vh;
+}
+
 .navBar {
     display: flex;
     justify-content: space-between;
-    width: 30vw;
+    width: 10vw;
 }
 
 .navBar a {
