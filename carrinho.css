@@ -1,7 +1,57 @@
 .item {
-    width:60vw;
-    display: flex;
+    display:none;
     align-items:center;
-    justify-content: space-between;
-    height:10vh;
+    gap: 20px;
+}
+
+/* itens em si e seus elementos */
+
+.item img {
+    width:10vw;
+    height:auto;
+}
+.nome {
+    font-size:20px;
+    font-weight: bold;
+}
+.preco {
+    font-size: 18px;
+    font-weight:bold;
+}
+.carrinho {
+    font-size: 18px
+}
+.item input {
+    height: 20px;
+    width:40px;
+}
+
+.tela {
+    display: flex;
+    margin:5vw;
+}
+
+main {
+    width: 60vw;
+}
+
+aside {
+    display: flex;
+    flex-direction:column;
+    gap:5vh;
+}
+
+aside a {
+    color: black;
+    text-decoration: none;
+}
+
+.preco {
+    display: flex;
+    gap:5vw;
+}
+
+.preco p {
+    font-size:25px;
+    margin-top:5vh;
 }

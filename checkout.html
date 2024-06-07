@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Checkout</title>
     <link rel="stylesheet" href="checkout.css">
     <link rel="stylesheet" href="geral.css">
     <script src="https://kit.fontawesome.com/afdb87810b.js" crossorigin="anonymous"></script>
@@ -20,7 +20,7 @@
     <main>
         <div class="pessoal">
             <h3>DADOS PESSOAIS</h3>
-            <form action="">
+            <form action="" id="formPessoal">
                 <label for="email">Seu Email</label>
                 <input type="text" id="email" name="email" required>
                 <label for="senha">Sua Senha</label>
@@ -30,7 +30,7 @@
 
         <div class="endereco">
             <h3>ENDEREÇO</h3>
-            <form action="">
+            <form action="" id="formEndereco">
                 <label for="cep">CEP</label>
                 <input type="number" id="cep" name="cep">
                 <label for="rua">Rua</label>
@@ -47,7 +47,7 @@
         <div class="pagamento">
             <h3>PAGAMENTO</h3>
             <p>Deve ser no cartão de crédito</p>
-            <form action="">
+            <form action="" id="formPagamento">
                 <label for="numero">Número do cartão</label>
                 <input type="number" id="numero" name="numero" required>
                 <label for="nomeCartao">Nome no cartão</label>
@@ -73,8 +73,9 @@
                 <p>TOTAL</p>
                 <p id="precoTotal"></p>
             </div>
-            <button>Finalizar Compra</button>
+            <button id="concluirTodos">Finalizar Compra</button>
         </div>
     </main>
+    <script src="checkout.js"></script>
 </body>
 </html>
